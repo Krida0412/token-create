@@ -1,0 +1,14 @@
+{
+  "..\\node_modules\\@metaplex-foundation\\umi-uploader-irys\\dist\\esm\\createIrysUploader.mjs -> @irys/sdk": {
+    "id": "..\\node_modules\\@metaplex-foundation\\umi-uploader-irys\\dist\\esm\\createIrysUploader.mjs -> @irys/sdk",
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_irys_sdk_build_esm_web_index_js.js"
+    ]
+  },
+  "components\\header.tsx -> @solana/wallet-adapter-react-ui": {
+    "id": "components\\header.tsx -> @solana/wallet-adapter-react-ui",
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_solana_wallet-adapter-react-ui_lib_esm_index_js.js"
+    ]
+  }
+}
