@@ -8,6 +8,7 @@ import {
   FireIcon,
 } from "@heroicons/react/24/outline";
 import Header from "@/components/header";
+import Link from "next/link";
 
 export default function HeroSection() {
   return (
@@ -72,9 +73,11 @@ export default function HeroSection() {
 
             {/* Buttons */}
             <div className="mt-8 flex justify-center gap-6">
-              <button className="bg-[#5133A9] text-white px-12 py-3 rounded-2xl text-sm font-semibold transition-all duration-300 transform hover:scale-110 focus:outline-none focus:ring-4 focus:ring-inbg-[#5133A9] shadow-xl">
-                Mulai Buat Token
-              </button>
+              <Link href="/home" passHref>
+                <button className="bg-[#5133A9] text-white px-12 py-3 rounded-2xl text-sm font-semibold transition-all duration-300 transform hover:scale-110 focus:outline-none focus:ring-4 focus:ring-inbg-[#5133A9] shadow-xl">
+                  Mulai Buat Token
+                </button>
+              </Link>
             </div>
           </div>
         </section>
